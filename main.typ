@@ -28,6 +28,7 @@
   config-common(
     handout: true,
     datetime-format: "[year] 年 [month] 月 [day] 日",
+    // new-section-slide-fn: none
   ),
   config-info(
     title: [并不复杂的 Typst 讲座],
@@ -39,9 +40,9 @@
   ),
   // hack for hiding list markers
   config-methods(cover: (self: none, body) => box(scale(x: 0%, body))),
-  config-page(margin: (top: 2.4em))
+  config-page(margin: (top: 2.4em)),
+  
 )
-
 #title-slide()
 
 == 目录 <touying:hidden>
